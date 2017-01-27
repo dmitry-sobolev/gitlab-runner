@@ -14,4 +14,4 @@ concurrent = $RUNNER_CONCURRENCY
 EOF
 fi
 
-exec /usr/bin/dumb-init /entrypoint run --user=$RUNNER_USER --working-directory=$RUNNER_WORK_DIR
+exec /usr/bin/dumb-init /entrypoint run --user=$RUNNER_USER --working-directory=$RUNNER_WORKING_DIR
