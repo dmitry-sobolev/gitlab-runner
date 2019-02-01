@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:alpine
+FROM gitlab/gitlab-runner:alpine-v11.6.1
 
 ENV CONFIG_FILE=/etc/gitlab-runner/config.toml \
     RUNNER_USER=gitlab-runner \
